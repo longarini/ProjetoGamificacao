@@ -1,4 +1,4 @@
-FROM node:16.14.2
+FROM node:12
 
 # Create app directory
 
@@ -18,6 +18,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD [ "node", "index.js" ]
