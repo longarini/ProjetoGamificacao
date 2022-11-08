@@ -6,7 +6,7 @@ require("dotenv-safe").config();
 module.exports = () => {
     const app = express();
 
-    app.set('port', (process.env.PORT || 8080));
+    app.set('port', (process.env.PORT || 3000));
 
     app.use(bodyParser.json());
 
