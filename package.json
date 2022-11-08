@@ -4,20 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
   "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/longarini/ProjetoGamificacao.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/longarini/ProjetoGamificacao/issues"
-  },
-  "homepage": "https://github.com/longarini/ProjetoGamificacao#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
